@@ -24,7 +24,7 @@ public class M01 {
         if (kredit.equals("---")) {
             kredit = kredit;
         } else {
-            kredit1 = double.parseDouble(kredit);
+            kredit1 = Integer.parseDouble(kredit);
         }
         nilai1 = input.nextLine();
         while (!nilai1.equals("---")) {
@@ -63,7 +63,7 @@ public class M01 {
             if (kredit.equals("---")) {
                 kredit = kredit;
             } else {
-                kredit1 = double.parseDouble(kredit);
+                kredit1 = Integer.parseDouble(kredit);
             }
             nilai1 = input.nextLine();
         }

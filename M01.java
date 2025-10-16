@@ -1,5 +1,5 @@
 // NIM - Your Name
-// NIM - Your Name
+// NIM - You
 
 import java.util.*;
 import java.lang.Math;

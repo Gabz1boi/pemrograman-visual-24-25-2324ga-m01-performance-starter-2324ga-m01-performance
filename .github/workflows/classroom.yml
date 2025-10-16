@@ -30,11 +30,11 @@ jobs:
           '
         comparison-method: exact
         timeout: 1
-    - name: m01-test-01
-      id: m01-test-01
+    - name: m01-test-02
+      id: m01-test-02
       uses: classroom-resources/autograding-io-grader@v1
       with:
-        test-name: m01-test-01
+        test-name: m01-test-02
         setup-command: javac M01.java
         command: java M01
         input: |
